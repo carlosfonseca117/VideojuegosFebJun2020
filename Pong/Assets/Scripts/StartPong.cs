@@ -1,30 +1,39 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StartPong : MonoBehaviour
 {
     public int speed;
     private Rigidbody2D rb2D;
     public bool destroying;
+    public AudioSource audioRebotar;
+    public AudioSource audioHit;
     // Start is called before the first frame update
     void Start()
     {
         inicia();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if(collision.gameObject.tag == "Player")
+        {
+            audioRebotar.Play(); 
+        }
         if(collision.gameObject.tag=="ParedI")
         {
             PlayerPrefs.SetInt("Score2", PlayerPrefs.GetInt("Score2")+1);
-            Debug.Log("Jugador 1: " + PlayerPrefs.GetInt("Score1") + "Jugador 2: " + PlayerPrefs.GetInt("Score2"));
+            
+            gameObject.GetComponent<ValoresJuego>().setPP2(gameObject.GetComponent<ValoresJuego>().getPP2()+1);
+            Debug.Log(gameObject.GetComponent<ValoresJuego>().getPP2());
+            audioHit.Play();
+            if (gameObject.GetComponent<ValoresJuego>().getPP2() == gameObject.GetComponent<ValoresJuego>().getPTW())
+            {
+                SceneManager.LoadScene("Menu");
+            }
             if (!destroying)
                 inicia();
             else
@@ -34,6 +43,12 @@ public class StartPong : MonoBehaviour
         {
             PlayerPrefs.SetInt("Score1", PlayerPrefs.GetInt("Score1") + 1);
             Debug.Log("Jugador 1: " + PlayerPrefs.GetInt("Score1") + "Jugador 2: " + PlayerPrefs.GetInt("Score2"));
+            gameObject.GetComponent<ValoresJuego>().setPP1(gameObject.GetComponent<ValoresJuego>().getPP1()+1);
+            audioHit.Play();
+            if (gameObject.GetComponent<ValoresJuego>().getPP2() == gameObject.GetComponent<ValoresJuego>().getPTW())
+            {
+                SceneManager.LoadScene("Menu");
+            }
             if (destroying)
                 inicia();
             else

@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{59972000-A102-93F3-E252-4AFE00D882C8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -68,38 +68,39 @@
     <Compile Include="Assets\Scripts\Scores.cs" />
     <Compile Include="Assets\Scripts\StartPong.cs" />
     <Compile Include="Assets\Scripts\UiMenu.cs" />
+    <Compile Include="Assets\Scripts\ValoresJuego.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/camartinezf/Documents/Clases/CursoFebJun2020/UnityProjects/Pong/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

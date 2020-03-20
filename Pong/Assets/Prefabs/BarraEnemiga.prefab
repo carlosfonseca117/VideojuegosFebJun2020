@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1947113261245383390}
   m_Layer: 0
   m_Name: BarraEnemiga
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,7 +144,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pelota: {fileID: 0}
-  prefabPelota: {fileID: 5176899779673460992, guid: 42e1e73125fedad499def29a5052958d,
-    type: 3}
   techo: {fileID: 0}
   suelo: {fileID: 0}
