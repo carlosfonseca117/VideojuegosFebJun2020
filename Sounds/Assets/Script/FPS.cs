@@ -54,9 +54,9 @@ public class FPS : MonoBehaviour
     {
 
 
-        //isGrounded = controller.isGrounded; //Version grounded usando el Character Controller
+        isGrounded = controller.isGrounded; //Version grounded usando el Character Controller
 
-        isGrounded = Physics.CheckSphere(magicSphere.transform.position, radious, groundMask);
+        //isGrounded = Physics.CheckSphere(magicSphere.transform.position, radious, groundMask);
         
         
         if (isGrounded)
@@ -74,6 +74,7 @@ public class FPS : MonoBehaviour
                       (fps.transform.up*moveud)+
                       (fps.transform.forward*movefb));
         movimiento = movimiento * speed * Time.deltaTime;
+
         controller.Move(movimiento);
 
 
