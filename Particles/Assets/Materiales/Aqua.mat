@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Aqua
+  m_Shader: {fileID: -6465566751694194690, guid: 7cb0927dac82c17449a468d087a6826d,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_622BF657:
+        m_Texture: {fileID: 2800000, guid: ecbb75c970ee8c842af285a138dd8a52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_31EFB753_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 9a3751d8caac9ab4ba2e3ebc80ca106b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_672450B9_Texture_1:
+        m_Texture: {fileID: 2800000, guid: ecbb75c970ee8c842af285a138dd8a52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_CE51B25B: 1
+    - Vector1_F73D34D: 0.2
+    m_Colors:
+    - Color_C7B27E22: {r: 1, g: 1, b: 1, a: 0}
+    - Color_E3D3AC72: {r: 0, g: 0.50980395, b: 1, a: 0}
